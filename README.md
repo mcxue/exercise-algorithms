@@ -24,3 +24,8 @@
   3. [实现循环队列](https://github.com/mcxue/exercise-algorithms/blob/master/queue/implement-a-circular-queue.ts)
   4. [如何用队列实现栈](https://github.com/mcxue/exercise-algorithms/blob/master/queue/implement-stack-with-queue.ts)
   5. [如何用栈实现队列](https://github.com/mcxue/exercise-algorithms/blob/master/queue/implement-queue-with-stack.ts)
+* [哈希表](https://github.com/mcxue/exercise-algorithms/tree/master/hash-table)
+  1. [Word 软件中的单词拼写检查功能是如何实现的？](https://github.com/mcxue/exercise-algorithms/blob/master/hash-table/word-spelling-error-checking.ts)
+  2. [假设有 10 万条 URL 访问日志，如何按照访问次数给 URL 排序？](https://github.com/mcxue/exercise-algorithms/blob/master/hash-table/urls-sorting.ts)
+  3. [有两个字符串数组，每个数组大约有 10 万个字符串，如何快速找出两个数组中相同的字符串？](https://github.com/mcxue/exercise-algorithms/blob/master/hash-table/quick-same-string-in-two-array.ts)
+  4. [利用哈希表优化 LRU 缓存淘汰算法？](https://github.com/mcxue/exercise-algorithms/blob/master/hash-table/optimize-LRU-with-hash.ts)
