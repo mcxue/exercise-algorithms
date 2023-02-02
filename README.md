@@ -41,3 +41,5 @@
   3. [堆的应用2: 求 TopK](https://github.com/mcxue/exercise-algorithms/blob/master/heap/heap-app2-top-k.ts)
   4. [堆的应用3: 求中位数和百分位数](https://github.com/mcxue/exercise-algorithms/blob/master/heap/heap-app3-median-99-digit.ts)
   5. [堆的应用: 如何快速获取 Top 热门搜索关键词](https://github.com/mcxue/exercise-algorithms/blob/master/heap/heap-app-top-hot-key-word.ts)
+* [跳表](https://github.com/mcxue/exercise-algorithms/blob/master/skip-list)
+  1. [跳表的概念](https://github.com/mcxue/exercise-algorithms/blob/master/skip-list/skip-list-concept.ts)
