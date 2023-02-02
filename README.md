@@ -43,3 +43,7 @@
   5. [堆的应用: 如何快速获取 Top 热门搜索关键词](https://github.com/mcxue/exercise-algorithms/blob/master/heap/heap-app-top-hot-key-word.ts)
 * [跳表](https://github.com/mcxue/exercise-algorithms/blob/master/skip-list)
   1. [跳表的概念](https://github.com/mcxue/exercise-algorithms/blob/master/skip-list/skip-list-concept.ts)
+* [图](https://github.com/mcxue/exercise-algorithms/tree/master/graph)
+  1. [使用邻接矩阵的存储方法实现图](https://github.com/mcxue/exercise-algorithms/blob/master/graph/implement-graph-with-adjacency-matrix.ts)
+  2. [使用邻接表的存储方法实现图](https://github.com/mcxue/exercise-algorithms/blob/master/graph/implement-graph-with-adjacency-list.ts)
+  3. [微博、微信等社交网络中的好友关系是如何存储的](https://github.com/mcxue/exercise-algorithms/blob/master/graph/weibo-wechat-relationship-storage.ts)
