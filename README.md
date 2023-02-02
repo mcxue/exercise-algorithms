@@ -46,4 +46,6 @@
 * [图](https://github.com/mcxue/exercise-algorithms/tree/master/graph)
   1. [使用邻接矩阵的存储方法实现图](https://github.com/mcxue/exercise-algorithms/blob/master/graph/implement-graph-with-adjacency-matrix.ts)
   2. [使用邻接表的存储方法实现图](https://github.com/mcxue/exercise-algorithms/blob/master/graph/implement-graph-with-adjacency-list.ts)
-  3. [微博、微信等社交网络中的好友关系是如何存储的](https://github.com/mcxue/exercise-algorithms/blob/master/graph/weibo-wechat-relationship-storage.ts)
+  3. [微博、微信等社交网络中的好友关系是如何存储的？](https://github.com/mcxue/exercise-algorithms/blob/master/graph/weibo-wechat-relationship-storage.ts)
+* [Trie 树](https://github.com/mcxue/exercise-algorithms/tree/master/trie-tree)
+  1. [如何实现搜索引擎的搜索关键词提示功能？](https://github.com/mcxue/exercise-algorithms/blob/master/trie-tree/search-engine-keyword-suggestion.ts)
