@@ -2,6 +2,7 @@
 
 ## 目录
 
+十个常用数据结构
 * [数组](https://github.com/mcxue/exercise-algorithms/tree/master/array)
   1. [按照下表快速访问数组中的元素](https://github.com/mcxue/exercise-algorithms/blob/master/array/random-access.ts)
   2. [数组中插入和删除操作](https://github.com/mcxue/exercise-algorithms/blob/master/array/insert-and-delete.ts)
@@ -49,3 +50,25 @@
   3. [微博、微信等社交网络中的好友关系是如何存储的？](https://github.com/mcxue/exercise-algorithms/blob/master/graph/weibo-wechat-relationship-storage.ts)
 * [Trie 树](https://github.com/mcxue/exercise-algorithms/tree/master/trie-tree)
   1. [如何实现搜索引擎的搜索关键词提示功能？](https://github.com/mcxue/exercise-algorithms/blob/master/trie-tree/search-engine-keyword-suggestion.ts)
+
+十个常用算法
+* [递归](https://github.com/mcxue/exercise-algorithms/tree/master/recursion)
+  1. [计算台阶的 n 种走法](https://github.com/mcxue/exercise-algorithms/blob/master/recursion/recursion.ts)
+* [排序算法](https://github.com/mcxue/exercise-algorithms/tree/master/sorting-algorithms)
+  1. [冒泡排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/bubble-sort.ts)
+  2. [插入排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/insertion-sort.ts)
+  3. [选择排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/selection-sort.ts)
+  4. [归并排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/merge-sort.ts)
+  5. [快速排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/quick-sort.ts)
+  6. [桶排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/bucket-sort.ts)
+  7. [计数排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/counting-sort.ts)
+  8. [基数排序](https://github.com/mcxue/exercise-algorithms/blob/master/sorting-algorithms/radix-sort.ts)
+* [二分查找算法](https://github.com/mcxue/exercise-algorithms/tree/master/binary-search)
+  1. [二分查找的递归与非递归实现](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/two-binary-search-implementations.ts)
+  2. [如何编程实现“求一个数的平方根”（要求精度到小数点后 6 位）](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/number-square-root.ts)
+  3. [变体1: 查找第一个值等于给定值的元素](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant1-find-first-equal-value.ts)
+  4. [变体2: 查找最后一个值等于给定值的元素](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant2-find-last-equal-value.ts)
+  5. [变体3: 查找第一个值大于或等于给定值的元素](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant3-find-first-greater-value.ts)
+  6. [变体4: 查找最后一个值小于或等于给定值的元素](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant4-find-last-less-value.ts)
+  7. [变体: 如何快速定位 IP 地址对应的归属地](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant-locate-ip-address-home.ts)
+  8. [变体: 如果有序数组是一个循环有序数组，如 \[4,5,6,1,2,3\]，那么，针对这种情况如何实现一个求“值等于给定值”的二分查找算法呢？](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant-binary-search-in-cycle.ts)
