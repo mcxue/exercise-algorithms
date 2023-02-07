@@ -77,3 +77,5 @@
   2. [深度优先搜索](https://github.com/mcxue/exercise-algorithms/blob/master/search-algorithm/depth-first-search.ts)
 * [哈希算法](https://github.com/mcxue/exercise-algorithms/tree/master/hash-algorithm)
   1. [哈希算法的原理和应用](https://github.com/mcxue/exercise-algorithms/tree/master/hash-algorithm/hash-algorithm.ts)
+* [贪心算法](https://github.com/mcxue/exercise-algorithms/tree/master/greedy-algorithm)
+  1. [贪心算法解决问题的步骤](https://github.com/mcxue/exercise-algorithms/tree/master/greedy-algorithm/greedy-algorithm.ts)
