@@ -81,3 +81,5 @@
   1. [贪心算法解决问题的步骤](https://github.com/mcxue/exercise-algorithms/tree/master/greedy-algorithm/greedy-algorithm.ts)
 * [分治算法](https://github.com/mcxue/exercise-algorithms/tree/master/divide-and-conquer-algorithm)
   1. [理解分治算法](https://github.com/mcxue/exercise-algorithms/tree/master/divide-and-conquer-algorithm/divide-and-conquer-algorithm.ts)
+* [回溯算法](https://github.com/mcxue/exercise-algorithms/tree/master/backtracking-algorithm)
+  1. [理解回溯算法](https://github.com/mcxue/exercise-algorithms/tree/master/backtracking-algorithm/backtracking-algorithm.ts)
