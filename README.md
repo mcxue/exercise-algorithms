@@ -83,3 +83,5 @@
   1. [理解分治算法](https://github.com/mcxue/exercise-algorithms/tree/master/divide-and-conquer-algorithm/divide-and-conquer-algorithm.ts)
 * [回溯算法](https://github.com/mcxue/exercise-algorithms/tree/master/backtracking-algorithm)
   1. [理解回溯算法](https://github.com/mcxue/exercise-algorithms/tree/master/backtracking-algorithm/backtracking-algorithm.ts)
+* [动态规划](https://github.com/mcxue/exercise-algorithms/tree/master/dynamic-programming)
+  1. [理解动态规划](https://github.com/mcxue/exercise-algorithms/tree/master/dynamic-programming/dynamic-programming.ts)
