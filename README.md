@@ -72,3 +72,6 @@
   6. [变体4: 查找最后一个值小于或等于给定值的元素](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant4-find-last-less-value.ts)
   7. [变体: 如何快速定位 IP 地址对应的归属地](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant-locate-ip-address-home.ts)
   8. [变体: 如果有序数组是一个循环有序数组，如 \[4,5,6,1,2,3\]，那么，针对这种情况如何实现一个求“值等于给定值”的二分查找算法呢？](https://github.com/mcxue/exercise-algorithms/blob/master/binary-search/variant-binary-search-in-cycle.ts)
+* [搜索算法](https://github.com/mcxue/exercise-algorithms/tree/master/search-algorithm)
+  1. [广度优先搜索](https://github.com/mcxue/exercise-algorithms/blob/master/search-algorithm/breadth-first-search.ts)
+  2. [深度优先搜索](https://github.com/mcxue/exercise-algorithms/blob/master/search-algorithm/depth-first-search.ts)
