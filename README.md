@@ -75,3 +75,5 @@
 * [搜索算法](https://github.com/mcxue/exercise-algorithms/tree/master/search-algorithm)
   1. [广度优先搜索](https://github.com/mcxue/exercise-algorithms/blob/master/search-algorithm/breadth-first-search.ts)
   2. [深度优先搜索](https://github.com/mcxue/exercise-algorithms/blob/master/search-algorithm/depth-first-search.ts)
+* [哈希算法](https://github.com/mcxue/exercise-algorithms/tree/master/hash-algorithm)
+  1. [哈希算法的原理和应用](https://github.com/mcxue/exercise-algorithms/tree/master/hash-algorithm/hash-algorithm.ts)
