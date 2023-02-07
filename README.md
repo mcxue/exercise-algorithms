@@ -79,3 +79,5 @@
   1. [哈希算法的原理和应用](https://github.com/mcxue/exercise-algorithms/tree/master/hash-algorithm/hash-algorithm.ts)
 * [贪心算法](https://github.com/mcxue/exercise-algorithms/tree/master/greedy-algorithm)
   1. [贪心算法解决问题的步骤](https://github.com/mcxue/exercise-algorithms/tree/master/greedy-algorithm/greedy-algorithm.ts)
+* [分治算法](https://github.com/mcxue/exercise-algorithms/tree/master/divide-and-conquer-algorithm)
+  1. [理解分治算法](https://github.com/mcxue/exercise-algorithms/tree/master/divide-and-conquer-algorithm/divide-and-conquer-algorithm.ts)
