@@ -85,3 +85,7 @@
   1. [理解回溯算法](https://github.com/mcxue/exercise-algorithms/tree/master/backtracking-algorithm/backtracking-algorithm.ts)
 * [动态规划](https://github.com/mcxue/exercise-algorithms/tree/master/dynamic-programming)
   1. [理解动态规划](https://github.com/mcxue/exercise-algorithms/tree/master/dynamic-programming/dynamic-programming.ts)
+* [字符串匹配算法](https://github.com/mcxue/exercise-algorithms/tree/master/string-matching-algorithm)
+  1. [BF 算法](https://github.com/mcxue/exercise-algorithms/tree/master/string-matching-algorithm/bf-algorithm.ts)
+  2. [RK 算法](https://github.com/mcxue/exercise-algorithms/tree/master/string-matching-algorithm/rk-algorithm.ts)
+  3. [BM 算法](https://github.com/mcxue/exercise-algorithms/tree/master/string-matching-algorithm/bm-algorithm.ts)
