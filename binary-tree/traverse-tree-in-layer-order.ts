@@ -1,14 +1,14 @@
 // 如何实现按层遍历？
 
 class TreeNode {
-  data: number;
+  value: number;
   left: TreeNode | null;
   right: TreeNode | null;
 
-  constructor(data: number, left?: TreeNode, right?: TreeNode) {
-    this.data = data;
-    this.left = left ? left : null;
-    this.right = right ? right : null;
+  constructor(value?: number, left?: TreeNode, right?: TreeNode) {
+    this.value = value === undefined ? 0 : value;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
   }
 }
 
@@ -34,7 +34,7 @@ const layerOrderTraverse = (treeNode: TreeNode | null) => {
   array.push(treeNode);
   while (array.length !== 0) {
     const node = array.shift() as TreeNode;
-    console.log(node.data);
+    console.log(node.value);
     if (node.left) array.push(node.left);
     if (node.right) array.push(node.right);
   }

@@ -5,14 +5,14 @@
  */
 
 class TreeNode {
-  data: number;
+  value: number;
   left: TreeNode | null;
   right: TreeNode | null;
 
-  constructor(data: number, left?: TreeNode, right?: TreeNode) {
-    this.data = data;
-    this.left = left ? left : null;
-    this.right = right ? right : null;
+  constructor(value?: number, left?: TreeNode, right?: TreeNode) {
+    this.value = value === undefined ? 0 : value;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
   }
 }
 
@@ -31,34 +31,34 @@ const treeNode7 = new TreeNode(7, treeNode6, treeNode9);
 const treeNode5 = new TreeNode(5, treeNode3, treeNode7);
 
 // 查询节点，这里用了递归技巧，改写成循环也不难哦
-const findNodeInSearchBinaryNode = (data: number, treeNode: TreeNode | null): null | TreeNode => {
+const findNodeInSearchBinaryNode = (value: number, treeNode: TreeNode | null): null | TreeNode => {
   if (treeNode === null) return null;
-  if (data === treeNode.data) return treeNode;
-  if (data < treeNode.data) {
-    return findNodeInSearchBinaryNode(data, treeNode.left);
+  if (value === treeNode.value) return treeNode;
+  if (value < treeNode.value) {
+    return findNodeInSearchBinaryNode(value, treeNode.left);
   } else {
-    return findNodeInSearchBinaryNode(data, treeNode.right);
+    return findNodeInSearchBinaryNode(value, treeNode.right);
   }
 };
 // console.log(findNodeInSearchBinaryNode(3, treeNode5));
 // console.log(findNodeInSearchBinaryNode(8, treeNode5));
 
 // 插入节点，这里简化操作，将要插入的数据放在叶子节点上
-const insertNodeInSearchBinaryNode = (data: number, treeNode: TreeNode | null) => {
-  if (!treeNode) return new TreeNode(data);
+const insertNodeInSearchBinaryNode = (value: number, treeNode: TreeNode | null) => {
+  if (!treeNode) return new TreeNode(value);
   let cursor = treeNode;
-  while ((data < cursor.data && cursor.left !== null) || (data > cursor.data && cursor.right !== null) || data === treeNode.data) {
-    if (data < cursor.data) {
+  while ((value < cursor.value && cursor.left !== null) || (value > cursor.value && cursor.right !== null) || value === treeNode.value) {
+    if (value < cursor.value) {
       cursor = cursor.left as TreeNode;
     } else {
       cursor = cursor.right as TreeNode;
     }
   }
-  if (data === cursor.data) return;
-  if (data < cursor.data) {
-    cursor.left = new TreeNode(data);
+  if (value === cursor.value) return;
+  if (value < cursor.value) {
+    cursor.left = new TreeNode(value);
   } else {
-    cursor.right = new TreeNode(data);
+    cursor.right = new TreeNode(value);
   }
 };
 // insertNodeInSearchBinaryNode(8, treeNode5);
@@ -72,12 +72,12 @@ const insertNodeInSearchBinaryNode = (data: number, treeNode: TreeNode | null) =
  * 3. 如果删除的节点有两个子节点，则找到该节点的右子树中的"最小节点"，将要删除的节点的数据替换成"最小节点"的数据，然后删除"最小节点"
  */
 
-const removeNodeInSearchBinaryNode = (data: number, treeNode: TreeNode | null) => {
+const removeNodeInSearchBinaryNode = (value: number, treeNode: TreeNode | null) => {
   if (treeNode === null) return;
   let cursor: TreeNode | null = treeNode; // 寻找要删除的节点
   let cursorParent: TreeNode | null = null; // 存储要删除的节点的父节点
-  while (cursor !== null && cursor.data !== data) {
-    if (data < cursor.data) {
+  while (cursor !== null && cursor.value !== value) {
+    if (value < cursor.value) {
       cursorParent = cursor;
       cursor = cursor.left;
     } else {
@@ -93,7 +93,7 @@ const removeNodeInSearchBinaryNode = (data: number, treeNode: TreeNode | null) =
       cursor2Parent = cursor2;
       cursor2 = cursor2.left;
     }
-    cursor.data = cursor2.data;
+    cursor.value = cursor2.value;
     // 将指针指向"最小的节点"，此刻要删除掉它，它一定满足"至多只有一个子节点时"，所有后面的代码一定会执行
     cursor = cursor2;
     cursorParent = cursor2Parent;

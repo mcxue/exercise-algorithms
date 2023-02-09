@@ -1,14 +1,14 @@
 // 实现二叉树遍历：前序遍历、中序遍历、后序遍历
 
 class TreeNode {
-  data: number;
+  value: number;
   left: TreeNode | null;
   right: TreeNode | null;
 
-  constructor(data: number, left?: TreeNode, right?: TreeNode) {
-    this.data = data;
-    this.left = left ? left : null;
-    this.right = right ? right : null;
+  constructor(value?: number, left?: TreeNode, right?: TreeNode) {
+    this.value = value === undefined ? 0 : value;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
   }
 }
 
@@ -29,7 +29,7 @@ const treeNode1 = new TreeNode(1, treeNode2, treeNode3);
 // 前序遍历 期望的输出顺序为：1 2 4 5 3 6 7
 const preOrderTraverse = (treeNode: TreeNode | null) => {
   if (treeNode === null || (treeNode.left === null && treeNode.right)) return;
-  console.log(treeNode.data);
+  console.log(treeNode.value);
   preOrderTraverse(treeNode.left);
   preOrderTraverse(treeNode.right);
 };
@@ -39,7 +39,7 @@ const preOrderTraverse = (treeNode: TreeNode | null) => {
 const inOrderTraverse = (treeNode: TreeNode | null) => {
   if (treeNode === null || (treeNode.left === null && treeNode.right)) return;
   inOrderTraverse(treeNode.left);
-  console.log(treeNode.data);
+  console.log(treeNode.value);
   inOrderTraverse(treeNode.right);
 };
 // inOrderTraverse(treeNode1);
@@ -49,7 +49,7 @@ const postOrderTraverse = (treeNode: TreeNode | null) => {
   if (treeNode === null || (treeNode.left === null && treeNode.right)) return;
   postOrderTraverse(treeNode.left);
   postOrderTraverse(treeNode.right);
-  console.log(treeNode.data);
+  console.log(treeNode.value);
 };
 postOrderTraverse(treeNode1)
 

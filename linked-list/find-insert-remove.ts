@@ -1,9 +1,9 @@
 // 在单链表中实现查找、插入、删除、查找第 k 个元素
 
-// 查找 data = value 的节点
+// 查找 node.value = value 的节点
 const findNode = (linkedList: SinglyLinkedList, value: number) => {
   let cursor: SinglyLinkedList | null = linkedList;
-  while (cursor !== null && cursor.data !== value) {
+  while (cursor !== null && cursor.value !== value) {
     cursor = cursor.next;
   }
   return cursor;

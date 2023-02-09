@@ -4,7 +4,7 @@
 const removeNode1 = (linkedList: SinglyLinkedList | null, value: number) => {
   let cursor: SinglyLinkedList | null = linkedList;
   let previous = null;
-  while (cursor !== null && cursor.data !== value) {
+  while (cursor !== null && cursor.value !== value) {
     previous = cursor;
     cursor = cursor.next;
   }
@@ -20,7 +20,7 @@ const removeNode1 = (linkedList: SinglyLinkedList | null, value: number) => {
 // 在双链表中删除值等于 value 的节点
 const removeNode2 = (linkedList: DoubleLinkedList | null, value: number) => {
   let cursor: DoubleLinkedList | null = linkedList;
-  while (cursor !== null && cursor.data !== value) {
+  while (cursor !== null && cursor.value !== value) {
     cursor = cursor.next;
   }
   if (cursor !== null) {

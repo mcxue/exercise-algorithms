@@ -1,11 +1,11 @@
 // 链表中环的检测
 
 class SinglyLinkedList {
-  data: number;
+  value: number;
   next: SinglyLinkedList | null;
 
   constructor(value?: number, next?: SinglyLinkedList | null) {
-    this.data = value === undefined ? 0 : value;
+    this.value = value === undefined ? 0 : value;
     this.next = next === undefined ? null : next;
   }
 }

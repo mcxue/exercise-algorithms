@@ -5,13 +5,13 @@
  */
 
 class TreeNode {
-  data: number;
+  value: number;
   left: TreeNode | null;
   right: TreeNode | null;
 
-  constructor(data: number, left?: TreeNode, right?: TreeNode) {
-    this.data = data;
-    this.left = left ? left : null;
-    this.right = right ? right : null;
+  constructor(value?: number, left?: TreeNode, right?: TreeNode) {
+    this.value = value === undefined ? 0 : value;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
   }
 }
